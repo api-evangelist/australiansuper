@@ -1,0 +1,25 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://australiansuper.com/
+- https://www.australiansuper.com/privacy
+probe: true
+signals: {}
+x-coverage:
+  state: blocked
+  reason: bot-challenge
+  note: >-
+    The provider's own site refused a browser User-Agent with an anti-bot challenge, so no
+    legal or trust page could be read and no signal can be quoted. This records an unreadable
+    surface, not a provider that publishes nothing.
+  evidence:
+  - url: https://australiansuper.com/
+    http_status: 403
+    fetched: '2026-10-22'
+    by: preflight front_door (verdict bot-challenge)
+  - url: https://www.australiansuper.com/
+    http_status: 403
+    fetched: '2026-10-22'
+  - url: https://www.australiansuper.com/privacy
+    http_status: 403
+    fetched: '2026-10-22'

@@ -1,0 +1,11 @@
+name: AustralianSuper pricing
+generated: '2026-10-22'
+method: none
+audience: unclear
+pricing_basis: none
+published: false
+plan_count: 0
+note: AustralianSuper publishes no public API, so there is no API pricing. Its fee schedule is retail superannuation member fees, not API pricing, and australiansuper.com returned an Akamai 403 to automated clients, so it could not be read.
+delivery:
+  mode: unclear
+plans: []

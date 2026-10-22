@@ -1,0 +1,6 @@
+name: AustralianSuper rate limits
+generated: '2026-10-22'
+method: none
+limit_count: 0
+note: No public API or developer documentation found, so no rate limits are published. australiansuper.com returned an Akamai 403 to automated clients.
+limits: []

@@ -1,0 +1,22 @@
+name: AustralianSuper MCP server
+type: MCPServer
+generated: '2026-10-22'
+method: none
+status: none
+description: >-
+  No official AustralianSuper MCP server (remote or local) was found, and no OpenAPI
+  contract exists in this repo from which to derive a candidate tool list. The pre-flight
+  probe of https://australiansuper.com/mcp returned 403 with an identical 403 control
+  (opaque: the Akamai edge refuses every automated request), which proves nothing either way.
+  A web search for an AustralianSuper API, MCP server or llms.txt returned no provider results.
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+evidence:
+- url: https://australiansuper.com/mcp
+  status: 403
+  note: opaque (control path also 403, bot-challenge front door)
+- url: https://australiansuper.com/
+  status: 403
+tools: []

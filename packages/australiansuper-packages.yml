@@ -1,0 +1,13 @@
+name: AustralianSuper packages
+generated: '2026-10-22'
+method: none
+note: No first-party SDK, client library or CLI found. registry.npmjs.org/australiansuper 404, pypi.org/pypi/australiansuper/json 404. GitHub org github.com/AustralianSuper exists (created 2020-06-07) with 0 public repositories. Web search found no public developer portal or SDK; australiansuper.com returns an Akamai 403 to automated clients.
+checked:
+- url: https://registry.npmjs.org/australiansuper
+  status: 404
+- url: https://pypi.org/pypi/australiansuper/json
+  status: 404
+- url: https://api.github.com/users/australiansuper
+  status: 200
+  note: Organization, public_repos 0
+packages: []
